@@ -1,4 +1,3 @@
-
 body {
   display: flex;
   justify-content: center;
@@ -8,12 +7,10 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  
 }
 
 
-
-form{
+form {
   display: flex;
   align-items: center;
   justify-items: center;
@@ -22,7 +19,13 @@ form{
   border-color: blueviolet;
 }
 
-.container{
+.tittle{
+  display: flex;
+  align-items: center;
+  font-size: large;
+}
+
+.container {
   width: 30%;
   height: 250px;
   border-radius: 15%;
@@ -30,15 +33,14 @@ form{
   display: flex;
   justify-items: center;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   border-color: black;
   gap: 10px;
-  font-size: x-large;
+  font-size: large;
   font-style: helvetica;
-  
 }
 
-.button{
+.button {
   text-decoration: none;
   font-weight: 600;
   font-size: large;
